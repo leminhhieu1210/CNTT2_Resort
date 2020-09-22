@@ -1,0 +1,83 @@
+.contact {
+	height: 300px;
+	
+	background-color: #1c1c1c;
+}
+
+.con1 {
+	width: 270px;
+
+	float: left;
+	padding-top: 70px;
+	margin-left: 80px;
+}
+
+#first {
+	width: 250px;
+
+	float: left;
+	padding-top: 40px;
+	margin-left: 100px;
+}
+
+#first p {
+	margin-top: 5px;
+}
+
+.con1 h3 {
+	color: white;
+	font-size: 20px;
+}
+
+.con1 h3:after {
+	content: '';
+
+    width: 50px;
+    height: 2px;
+
+    display: block;
+    margin-top: 13px;
+    margin-bottom: 17px;
+    background: #85ab00;
+}
+
+.con1 p {
+	color: white;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.con1 a img {
+	width: 100px;
+	height: 40px;
+}
+
+.con1 a:first-child img{
+	width: 200px;
+	height: 80px;
+}
+
+.anh img {
+	width: 80px;
+	height: 70px;
+	padding: 0px 10px 15px 0px;
+
+	transition: opacity 0.3s;
+}
+
+.anh img:hover {
+	opacity: 0.8;
+}
+
+.con1 ul {
+	list-style-type: none;
+}
+
+.con1 ul li {
+	margin-top: 15px;
+}
+
+.con1 ul li a {
+	color: white;
+	font-size: 16px;
+}

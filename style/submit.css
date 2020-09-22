@@ -1,0 +1,57 @@
+.submit {
+	height: 130px;
+
+	background-color: #85ab00;
+	color: white;
+
+	margin-top: 50px;
+}
+
+.sub2 {
+	width: 70%;
+
+	margin: auto;
+	padding-top: 50px;
+}
+
+.sub2 span {
+	font-size: 20px;
+
+	margin-right: 70px;
+}
+
+.button {
+    width: 100px;
+    height: 36px;
+
+	color: red;
+	background-color: yellow;
+
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+
+    margin-left: 30px;
+    border: none;
+    border-radius: 4px;
+
+	transition: 0.3s color, 0.3s background-color;
+}
+
+.button:hover {
+	color: yellow;
+	background-color: red;	
+}
+
+.sub2 input[type=email] {
+	height: 40px;
+	width: 30%;
+
+	outline: none;
+	border : 1px solid yellow;
+	border-radius: 5px;
+
+	padding: 8px;
+}

@@ -1,0 +1,30 @@
+.dichvu {
+	padding-top: 150px;
+	margin-bottom: 150px;
+}
+
+.down {
+	height: 900px;
+}
+
+.room {
+	width: 300px;
+	margin-bottom: 80px;
+	margin-left: 120px;
+}
+
+.room img {
+	width: 100%;
+}
+
+#room1 {
+	margin-left: 80px;
+}
+
+.submit {
+	margin-top: 100px;
+}
+
+h2 {
+	font-family: Arial;
+}

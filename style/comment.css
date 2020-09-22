@@ -1,0 +1,33 @@
+#myCarousel2 {
+	width: 85%;
+	height: 500px;
+
+	z-index: 1;
+	margin: auto;
+	border: none;
+}
+
+.cmt h2 {
+	padding-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+
+h2::after {
+	content: '';
+
+	width: 70px;
+    height: 3px;
+
+	background: #a7cc38;
+
+    bottom: 7px;    
+    display: inline-block;  
+    margin: 0 0 0 8px
+
+}
+
+.cmt img {
+	width: 85%;
+	height: 500px;	
+}

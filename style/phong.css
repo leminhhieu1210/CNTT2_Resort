@@ -1,0 +1,106 @@
+.phong {
+	width: 65%;
+    height: 1200px;
+    margin: auto;  
+    padding-top: 130px;
+   
+}
+
+#myCarousel2 {
+	height: 450px;
+
+	z-index: 1;
+	border: none;
+}
+
+.phong img {
+	height: 500px;	
+}
+
+.head {
+	height: 100px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.head h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.head a {
+	color: #aaaaaa;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.head a:hover {
+	color: #a7cc38;
+}
+
+.head span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.head span span{
+	color: #aaaaaa;
+}
+
+.foot {
+	width: 85%;
+	height: 400px;
+
+	margin: 100px auto;	
+}
+
+.foot h4 {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.footer {
+	float: left;
+	margin-right: 53px;
+}
+
+.footer img {
+	width: 20px;
+	height: 16px;
+}
+
+.footer span {
+	color: #353535;
+}
+
+#tieuchi {
+	font-weight: bold;
+}
+
+.submit1 {
+	clear: left;
+	margin-top: 250px ;
+}
+
+.submit1 a {
+	width: 120px;
+	height:50px;
+	
+	color: #ffffff;
+	background-color: #85ab00;
+
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 5px;
+
+	display: block;
+	padding-top: 5px;
+}
+
+.submit1 a:hover {
+	color: #ffffff;
+	background-color: #6b8900;	
+}

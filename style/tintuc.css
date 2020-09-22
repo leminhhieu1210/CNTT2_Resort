@@ -1,0 +1,149 @@
+.dangnhap {
+	width: 100%;
+    height: 800px;   
+}
+
+.tintuc {
+	width: 100%;
+    height: 180px;
+    padding: 130px 0px 70px 500px;
+}
+
+.form {
+	width: 100%;
+	height:70%;
+	background-color: white;
+	position: absolute;
+	opacity: 0.9;
+	padding:0px 50px ;
+	box-sizing: border-box;
+
+}
+
+textarea {
+	width:100%;
+	height:60%;
+
+}
+
+.ten {
+	float:left;
+	width:65%;
+}
+
+.a {
+	height:100%;
+	width:30%;
+	float:left;
+	padding-right: 50px;
+}
+
+.cona {
+	padding:20px 0 0 20px;
+	height: 80px;
+	border: 1px solid #9D9A9A;
+	color: black;
+	background-color: #fcfcfc;
+
+}
+
+.cona:nth-child(2) {
+	margin-top: 30px;
+}
+
+.cona img{
+	height: 35px;
+	width:50px;
+	float: left;
+	margin-right: 10px;
+}
+
+.cona img:hover, .conb img:hover {
+	opacity: 0.8;
+}
+
+.cona {
+	box-shadow: 0.1em 0.1em 0.25em gray;
+}
+
+.cona a {
+	color: black;
+	display: block;
+	margin-top: -5px;
+}
+.cona:nth-child(3) a
+{
+	margin-top: 5px;
+}
+
+.b {
+	float:left;
+	width:70%;
+	height:800px;
+	padding-left:3%;
+	padding-top: 40px;
+	border-left: 1px solid #9F9F9F;
+}
+
+.conb {
+	padding-left: 90px;
+	
+	width:45%;
+	height:50%;
+	float: left;
+}
+
+.conb a {
+	color: black;
+}
+
+.conb img {
+	width:100%;
+	height:50%;
+}
+
+.dn {
+	margin:10px 25%;
+	width: 100px;
+    height: 36px;
+
+	color: yellow;
+	background-color: green;
+
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+
+
+    border: none;
+    border-radius: 4px;
+
+	transition: 0.3s color, 0.3s background-color;
+}
+
+.gui {
+	margin:30px 35%;
+	width: 100px;
+    height: 36px;
+
+	color: yellow;
+	background-color: green;
+
+	cursor: pointer;
+	display: inline-block;
+    text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+
+
+    border: none;
+    border-radius: 4px;
+
+	transition: 0.3s color, 0.3s background-color;
+}
+
+.phanhoi:hover {
+	opacity: 0.8;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Liên Hệ - Resort CNTT 2</title>
+
+	<link rel="icon" href="image/logo.png">
+	<link rel="stylesheet" href="style/trangchu.css">
+	<link rel="stylesheet" href="style/bootstrap.css">
+	<link rel="stylesheet" href="style/dichvu.css">
+	<link rel="stylesheet" href="style/comment.css">
+	<link rel="stylesheet" href="style/submit.css">
+	<link rel="stylesheet" href="style/contact.css">
+	<link rel="stylesheet" href="style/end.css">
+	<link rel="stylesheet" href="style/lentop.css">
+	
+
+	<link rel="stylesheet" href="style/lienhe.css">
+	
+</head>
+
+<body>
+	<div class="nav">
+		<div class="main-nav">
+			<a href="trang_chu.html"><img src="image/logodone.png" alt=""></a>
+			<ul>
+				<li> 
+					<a href="trang_chu.html"> TRANG CHỦ </a> 
+				</li>
+				<li> 
+					<a href="gioi_thieu.html"> GIỚI THIỆU </a> 
+				</li>
+				<li> 
+					<a href=""> ĐỊA ĐIỂM </a> 
+					<ul class="sub-menu">
+						<li><a href="ha_noi.html"> Hà Nội </a></li>
+						<li><a href="da_nang.html"> Đà Nẵng </a></li>
+						<li><a href="phu_quoc.html"> Phú Quốc </a></li>
+					</ul>
+				</li>		
+				<li> 
+					<a href=""> PHÒNG </a> 
+					<ul class="sub-menu" id="menu2">
+						<li><a href="Phong_Economy.html"> Phòng Economy </a></li>
+						<li><a href="Phong_Standard.html"> Phòng Standard </a></li>
+						<li><a href="Phong_Deluxe.html"> Phòng Deluxe </a></li>
+						<li><a href="Phong_Family.html"> Phòng Family </a></li>
+					</ul>
+				</li>
+				<li> 
+					<a href="tin_tuc.html"> TIN TỨC </a> 
+				</li>
+				<li> 
+					<a href="lien_he.html"> LIÊN HỆ </a> 
+				</li>
+				<li> 
+					<a href="dangnhap.html"> ĐĂNG XUẤT </a> 
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="dangnhap">
+		<div class="anh1">
+			<div class="form">
+				<div class="a">
+					<h2> Ý kiến đóng góp </h2>	
+					<textarea  placeholder="Nội dung" id="re"></textarea><br>		
+					<input type="button" class="gui" name="gui" value="GỬI" onclick="Gui()">
+					<script>  
+						function Gui(){  
+							var str_re = document.getElementById("re").value;
+							if (str_re == "")
+							{
+								alert("Bạn chưa phản hồi đóng góp với chúng tôi.");
+							}
+							else alert("Cảm ơn bạn đã đóng góp ý kiến cho chúng tôi!");  
+						}  
+					</script>
+				</div>
+				<div class="b">
+					<h2>Thông tin liên hệ</h2>
+					<p>
+						<img src="image/con4.jpg" alt="">
+						Số 3 Đường Cầu Giấy, Phường Láng Thượng, Quận Đống Đa, Thành Phố Hà Nội, Việt Nam.
+					</p>
+					<p>
+						<img src="image/con5.jpg" alt="">
+						035 999 1932
+					</p>
+					<p>
+						<img src="image/con6.jpg" alt="">
+						CNTT2_k59@gmail.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1133656789284!2d105.80130561469366!3d21.0281494931756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab424a50fff9%3A0xbe3a7f3670c0a45f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBHaWFvIHRow7RuZyBW4bqtbiB04bqjaSAoVVRDKQ!5e0!3m2!1svi!2s!4v1572953348745!5m2!1svi!2s" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+	
+
+	<div class="submit">
+		<div class="sub2">
+			<span>
+				Đăng ký để nhận được thông tin mới nhất từ chúng tôi:
+			</span>
+
+			<input type="email" id="email2" placeholder="Nhập email ...">
+			<input type="button" onclick="Submit()" value="ĐĂNG KÝ" class="button">
+			<script>
+				function Submit() {
+					var check = /^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$/;
+					var str = document.getElementById("email2").value;
+					if (str == "")
+					{
+						alert("Bạn chưa nhập email.");
+					}
+					else if(!check.test(str))
+					{
+						alert("Email không hợp lệ!");
+						document.getElementById("email2").value="";
+						document.getElementById("email2").focus();
+					}
+					else 
+					{
+						alert("Bạn đã đăng ký thành công. Hãy check mail thường xuyên nhé!");
+					}
+				}
+			</script>
+		</div>
+	</div>
+
+
+	<div class="contact">
+		<div class="con1" id="first">
+			<a href="trang_chu.html"><img src="image/logodone.png" alt=""></a>
+			<p>
+				Thiên đường nghĩ dưỡng dành cho mọi du khách. Quý khách sẽ được ngắm ánh bình minh và chiều hoàng hôn trên bãi biển của khu nghỉ dưỡng. &#10084;
+			</p>
+			<a href="https://www.facebook.com/groups/449782415527246/" target="_blank"><img src="image/web6.png" alt=""></a>
+		</div>
+
+		<div class="con1">
+			<h3>
+				THÔNG TIN LIÊN HỆ
+			</h3>
+			<p id="pfirst">
+				<img src="image/con1.png" alt="">
+				Số 3 Đường Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội.
+			</p>
+			<p>
+				<img src="image/con2.png" alt="">
+				035 999 1932
+			</p>
+			<p>
+				<img src="image/con3.png" alt="">
+				CNTT2_k59@gmail.com
+			</p>
+		</div>
+
+		<div class="con1">
+			<h3>
+				TRỢ GIÚP
+			</h3>
+			<ul>
+				<li>
+					<a href="huongdan_datphong.html">
+						Hướng dẫn đặt phòng
+					</a>
+				</li>
+
+				<li>
+					<a href="huongdan_thanhtoan.html">
+						Hướng dẫn thanh toán
+					</a>
+				</li>
+
+				<li>
+					<a href="tai_khoan.html">
+						Tài khoản giao dịch
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="con1">
+			<h3>
+				HÌNH ẢNH
+			</h3>
+
+			<div class="anh" >
+				<img src="image/re1.jpg" alt="">
+				<img src="image/re2.jpg" alt="">
+				<img src="image/re3.jpg" alt="">
+			</div>
+
+			<div class="anh">
+				<img src="image/re4.jpg" alt="">
+				<img src="image/re5.jpg" alt="">
+				<img src="image/re_phuquoc2.png" alt="">
+			</div>			
+
+		</div>
+	</div>
+
+
+	<div class="end">
+		<p>
+			&copy; Bản quyền thuộc về: <span> &#9758; Nhóm 12 - CNTT 2 - K59 - UTC &#9756;</span>
+		</p>
+	</div>
+
+	<a class="lentop" href="#" title="Back to Top">
+		<img src="image/top.png"/>
+	</a> 
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.lentop {
+	display: scroll;
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+}
+
+.lentop img {
+	width: 50px;
+	height: 50px;
+}

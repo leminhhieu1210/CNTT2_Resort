@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Đăng ký - Resort CNTT 2</title>
+
+	<link rel="icon" href="image/logo.png">
+	<link rel="stylesheet" href="style/trangchu.css">
+	<link rel="stylesheet" href="style/bootstrap.css">
+	<link rel="stylesheet" href="style/dichvu.css">
+	<link rel="stylesheet" href="style/comment.css">
+	<link rel="stylesheet" href="style/submit.css">
+	<link rel="stylesheet" href="style/contact.css">
+	<link rel="stylesheet" href="style/end.css">
+	<link rel="stylesheet" href="style/lentop.css">
+	
+
+	<link rel="stylesheet" href="style/dangky.css">
+	
+</head>
+
+<body>
+	<div class="nav">
+		<div class="main-nav">
+			<a href="trangchu.html"><img src="image/logodone.png" alt=""></a>
+			<ul>
+				<li> 
+					<a href="trangchu.html"> TRANG CHỦ </a> 
+				</li>
+				<li> 
+					<a href="gioithieu.html"> GIỚI THIỆU </a> 
+				</li>
+				<li> 
+					<a href=""> ĐỊA ĐIỂM </a> 
+					<ul class="sub-menu">
+						<li><a href="hanoi.html"> Hà Nội </a></li>
+						<li><a href="danang.html"> Đà Nẵng </a></li>
+						<li><a href="phuquoc.html"> Phú Quốc </a></li>
+					</ul>
+				</li>
+				<li> 
+					<a href=""> PHÒNG </a> 
+					<ul class="sub-menu" id="menu2">
+						<li><a href="PhongEconomy.html"> Phòng Economy </a></li>
+						<li><a href="PhongStandard.html"> Phòng Standard </a></li>
+						<li><a href="PhongDeluxe.html"> Phòng Deluxe </a></li>
+						<li><a href="PhongFamily.html"> Phòng Family </a></li>
+					</ul>
+				</li>
+				<li> 
+					<a href="tintuc.html"> TIN TỨC </a> 
+				</li>
+				<li> 
+					<a href="lienhe.html"> LIÊN HỆ </a> 
+				</li>
+				<li> 
+					<a href="dangnhap.html"> ĐĂNG NHẬP </a> 
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+	<div class="dangky">
+		<div class="anh1">
+			<div class="form">
+				<h1> Đăng Ký Tài Khoản </h1>
+				<p>Nếu bạn đã đăng ký tài khoản với chúng tôi, vui lòng <a href="dangnhap.html">đăng nhập.</a></p>
+				<h3>Chi tiết tài khoản</h3>
+				<div>
+					<div class="a">
+						<div class="label">Họ & Tên</div>
+						<div class="ten">
+							<input type="text" name="name" id="name" placeholder="Họ & Tên" style="width: 50%;">
+							<span id="error_name"></span>	
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Email</div>
+						<div class="ten">
+							<input type="email" name="email" style="width: 50%;" id="email" placeholder="Email">
+							<span id="error_email"></span>
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Điện thoại</div>
+						<div class="ten">
+							<input type="tel"  name="dienthoai" style="width: 50%;" id="phone" placeholder="Điện thoại">	
+							<span id="error_phone"></span>			
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Số tài khoản</div>
+						<div class="ten">
+							<input type="text" name="tk" style="width: 50%;" id="bank" placeholder="Số tài khoản">
+							<span id="error_bank"></span>				
+						</div>
+					</div>
+				</div>
+				<h3>Địa Chỉ</h3>
+				<div>
+					<div class="a">
+						<div class="label">Thôn/Xóm</div>
+						<div class="ten">
+							<input type="text" name="thon" style="width: 50%;" id="thon" placeholder="Thôn/Xóm">	
+							<span id="error_thon"></span>
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Xã/Phường</div>
+						<div class="ten">
+							<input type="text" name="xa" style="width: 50%;" id="xa" placeholder="Xã/Phường">	
+							<span id="error_xa"></span>			
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Quận/Huyện</div>
+						<div class="ten">
+							<input type="text"  name="huyen" style="width: 50%;" id="huyen" placeholder="Quận/Huyện">
+							<span id="error_huyen"></span>		
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Tỉnh/TP</div>
+						<div class="ten">
+							<select name="zone_id" id="city">
+								<option disabled="" value="0" selected=""> ------- Chọn ------- </option>
+								<option value="3751">An Giang</option>
+								<option value="3756">Bà Rịa - Vũng Tàu</option>
+								<option value="3752">Bắc Giang</option>
+								<option value="3753">Bắc Kạn</option>
+								<option value="3754">Bạc Liêu</option>
+								<option value="3755">Bắc Ninh</option>
+								<option value="3757">Bến Tre</option>
+								<option value="3759">Bình Dương</option>
+								<option value="3760">Bình Phước</option>
+								<option value="3761">Bình Thuận</option>
+								<option value="3758">Bình Định</option>
+								<option value="3762">Cà Mau</option>
+								<option value="3763">Cần Thơ</option>
+								<option value="3764">Cao Bằng</option>
+								<option value="3767">Đà Nẵng</option>
+								<option value="3765">Đăk Lăk</option>
+								<option value="3766">Đăk Nông</option>
+								<option value="3768">Điện Biên</option>
+								<option value="3769">Đồng Nai</option>
+								<option value="3770">Đồng Tháp</option>
+								<option value="3771">Gia Lai</option>
+								<option value="3772">Hà Giang</option>
+								<option value="3775">Hà Nam</option>
+								<option value="3776">Hà Nội</option>
+								<option value="3778">Hà Tĩnh</option>
+								<option value="3773">Hải Dương</option>
+								<option value="3774">Hải Phòng</option>
+								<option value="3781">Hậu Giang</option>
+								<option value="3779">Hòa Bình</option>
+								<option value="3782">Hưng Yên</option>
+								<option value="4236">Khánh Hòa</option>
+								<option value="4237">Kiên Giang</option>
+								<option value="4238">Kon Tum</option>
+								<option value="4239">Lai Châu</option>
+								<option value="4242">Lâm Đồng</option>
+								<option value="4241">Lạng Sơn</option>
+								<option value="4240">Lào Cai</option>
+								<option value="4243">Long An</option>
+								<option value="4244">Nam Định</option>
+								<option value="4245">Nghệ An</option>
+								<option value="4246">Ninh Bình</option>
+								<option value="4247">Ninh Thuận</option>
+								<option value="4248">Phú Thọ</option>
+								<option value="4249">Phú Yên</option>
+								<option value="4250">Quảng Bình</option>
+								<option value="4251">Quảng Nam</option>
+								<option value="4252">Quảng Ngãi</option>
+								<option value="4253">Quảng Ninh</option>
+								<option value="4254">Quảng Trị</option>
+								<option value="4255">Sóc Trăng</option>
+								<option value="4256">Sơn La</option>
+								<option value="4257">Tây Ninh</option>
+								<option value="4258">Thái Bình</option>
+								<option value="4259">Thái Nguyên</option>
+								<option value="4260">Thanh Hóa</option>
+								<option value="4261">Thừa Thiên Huế</option>
+								<option value="4262">Tiền Giang</option>
+								<option value="3780">TP.Hồ Chí Minh</option>
+								<option value="4263">Trà Vinh</option>
+								<option value="4264">Tuyên Quang</option>
+								<option value="4265">Vĩnh Long</option>
+								<option value="4266">Vĩnh Phúc</option>
+								<option value="4267">Yên Bái</option>
+								
+							</select>
+							<span id="error_city"></span>				
+						</div>
+					</div>
+				</div>
+				<h3>Tài Khoản & Mật Khẩu</h3>	
+				<div>
+					<div class="a">
+						<div class="label">Tài khoản</div>
+						<div class="ten">
+							<input type="text" name="taikhoan" style="width: 50%;" id="acount" placeholder="Tài khoản">	
+							<span id="error_acount"></span>			
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Mật khẩu</div>
+						<div class="ten">
+							<input type="password" name="matkhau" style="width: 50%;" id="pass1" placeholder="Mật khẩu phải dài hơn 8 ký tự.">
+							<span id="error_pass1"></span>				
+						</div>
+					</div>
+					<div class="a">
+						<div class="label">Xác nhận mật khẩu</div>
+						<div class="ten">
+							<input type="password" name="xacnhanmatkhau" style="width: 50%;" id="pass2" placeholder="Xác nhận mật khẩu">
+							<span id="error_pass2"></span>				
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<input type="button" class="dk" value="ĐĂNG KÝ" onclick="login()">
+					<script src="style/dangky.js"></script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="contact">
+		<div class="con1" id="first">
+			<a href="trangchu.html"><img src="image/logodone.png" alt=""></a>
+			<p>
+				Thiên đường nghĩ dưỡng dành cho mọi du khách. Quý khách sẽ được ngắm ánh bình minh và chiều hoàng hôn trên bãi biển của khu nghỉ dưỡng. &#10084;
+			</p>
+			<a href="https://www.facebook.com/groups/449782415527246/" target="_blank"><img src="image/web6.png" alt=""></a>
+		</div>
+
+		<div class="con1">
+			<h3>
+				THÔNG TIN LIÊN HỆ
+			</h3>
+			<p id="pfirst">
+				<img src="image/con1.png" alt="">
+				Số 3 Đường Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội.
+			</p>
+			<p>
+				<img src="image/con2.png" alt="">
+				035 999 1932
+			</p>
+			<p>
+				<img src="image/con3.png" alt="">
+				CNTT2_k59@gmail.com
+			</p>
+		</div>
+
+		<div class="con1">
+			<h3>
+				TRỢ GIÚP
+			</h3>
+			<ul>
+				<li>
+					<a href="huongdandatphong.html">
+						Hướng dẫn đặt phòng
+					</a>
+				</li>
+
+				<li>
+					<a href="huongdanthanhtoan.html">
+						Hướng dẫn thanh toán
+					</a>
+				</li>
+
+				<li>
+					<a href="taikhoan.html">
+						Tài khoản giao dịch
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="con1">
+			<h3>
+				HÌNH ẢNH
+			</h3>
+
+			<div class="anh" >
+				<img src="image/re1.jpg" alt="">
+				<img src="image/re2.jpg" alt="">
+				<img src="image/re3.jpg" alt="">
+			</div>
+
+			<div class="anh">
+				<img src="image/re4.jpg" alt="">
+				<img src="image/re5.jpg" alt="">
+				<img src="image/re_phuquoc2.png" alt="">
+			</div>			
+
+		</div>
+	</div>
+
+
+	<div class="end">
+		<p>
+			&copy; Bản quyền thuộc về: <span> &#9758; Nhóm 12 - CNTT 2 - K59 - UTC &#9756;</span>
+		</p>
+	</div>
+
+	<a class="lentop" href="#" title="Back to Top">
+		<img src="image/top.png"/>
+	</a> 
+
+</body>
+</html>

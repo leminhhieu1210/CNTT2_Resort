@@ -1,0 +1,119 @@
+.dichvu {
+	width: 85%;
+
+	padding-top: 150px;
+	margin-left: 100px;
+	margin: auto;
+}
+
+.up p {
+	font-style: italic;
+	color: #adadad;
+}
+
+.up p::after {
+	content: '';
+
+	width: 60px;
+    height: 2px;
+
+    background: #a7cc38;
+
+    bottom: 7px;  
+    display: inline-block;
+    margin: 0 0 0 12px
+}
+
+h2 {
+	color: black;
+	font-family: "Noto Serif";
+	font-size: 35px;
+	font-weight: bold;
+}
+
+h2:hover {
+	color: #a5cc00;
+}
+
+.down {
+	height: 500px;
+	padding-top: 30px;
+}
+
+.room {
+	width: 280px;
+	
+	float: left;
+	margin-left: 40px;
+
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0.1em 0.1em 0.25em gray;
+}
+
+.room:hover {
+	box-shadow: 0.1em 0.1em 1em gray;
+	transition-duration: 0.3s;
+}
+
+.room a {
+	text-decoration: none;	
+}
+
+.room img {
+	width: 280px;
+	height: 200px;
+
+	border-radius: 5px;
+	
+}
+
+.room img:hover {
+	opacity: 0.8;
+	box-shadow: 0.1em 0.1em 0.25em gray;
+	transform: scale(1.1);
+	transition-duration: 0.8s;
+}
+
+
+.room p {
+	color: black;
+	font-size: 18px;
+	margin: 10px 0px;
+}
+
+.room a p:hover {
+	color: #a5cc00;
+}
+
+#p2 {
+	color: #adadad;
+	height: 100px;	
+	font-size: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#detail {
+	width: 90px;
+	color: #ffffff;
+	background-color: #85ab00;
+	
+	font-size: 20px;
+	font-weight: bolder;
+	text-decoration: none;
+	text-align: center;
+
+	display: block;
+	margin: 20px auto;
+	padding:5px;
+	border-radius: 5px;
+
+	transition: color 0.3s, background 0.3s;
+}
+
+#detail:hover {
+	color: white;
+	background-color: #a5cc00;
+	text-decoration: none;
+}

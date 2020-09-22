@@ -1,0 +1,54 @@
+.carousel {
+	height: 700px;
+	z-index: 1;	
+}
+
+#myCarousel {
+	padding-top: 49px;
+}
+
+.carousel img {
+	width: 1000px;
+	height: 700px;	
+}
+
+#li_cmt li{
+	width: 10px; 
+	height: 10px; 
+	border-radius: 100%;
+	bottom: -40px;
+}
+
+h1 {
+	font-family: 'Noto Serif';
+	font-size: 64px;
+	font-weight: bold;
+}
+
+h4 {
+	font-style: italic;
+}
+
+.carousel-inner {
+	position: relative;
+}
+
+#hanoi {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#danang {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#phuquoc {
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
